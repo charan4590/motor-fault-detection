@@ -9,6 +9,8 @@ It uses public lab data (the CWRU Bearing Data Center), hand-crafted signal feat
 
 > This is a software prototype only. It works on recorded data files. It is **not** connected to any sensor or motor and does **not** do real-time monitoring.
 
+**▶ Want to run it? Follow the step-by-step guide: [HOW_TO_RUN.md](HOW_TO_RUN.md)**
+
 ---
 
 ## 1. Dataset
