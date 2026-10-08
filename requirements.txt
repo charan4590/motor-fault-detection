@@ -1,7 +1,9 @@
 numpy
 pandas
 scipy
-scikit-learn
+# The saved models in models/ were trained with scikit-learn 1.6.1.
+# Keep this version so they load correctly.
+scikit-learn==1.6.1
 matplotlib
 joblib
 streamlit
