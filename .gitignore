@@ -1,0 +1,8 @@
+# Raw CWRU .mat files (136 MB) - download them with the command in README.md
+data/raw/*.mat
+
+# Python / OS clutter
+__pycache__/
+*.pyc
+.DS_Store
+.venv/

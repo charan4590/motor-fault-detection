@@ -1,0 +1,461 @@
+{
+  "total_windows": 2331,
+  "total_files": 40,
+  "windows_per_class": {
+    "Normal": 206,
+    "Inner Race Fault": 709,
+    "Ball Fault": 708,
+    "Outer Race Fault": 708
+  },
+  "windows_per_fault_size": {
+    "0.007": 709,
+    "0.014": 708,
+    "0.021": 708
+  },
+  "a_random_split": {
+    "test_windows": 467,
+    "accuracy": 0.9957,
+    "per_class": {
+      "Normal": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 41
+      },
+      "Inner Race Fault": {
+        "precision": 1.0,
+        "recall": 0.993,
+        "f1": 0.9965,
+        "support": 142
+      },
+      "Ball Fault": {
+        "precision": 0.9861,
+        "recall": 1.0,
+        "f1": 0.993,
+        "support": 142
+      },
+      "Outer Race Fault": {
+        "precision": 1.0,
+        "recall": 0.993,
+        "f1": 0.9965,
+        "support": 142
+      }
+    },
+    "macro_f1": 0.9965,
+    "confusion_matrix": [
+      [
+        41,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        141,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        142,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        141
+      ]
+    ]
+  },
+  "b_load_held_out": {
+    "test_windows": 591,
+    "accuracy": 0.9882,
+    "per_class": {
+      "Normal": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 59
+      },
+      "Inner Race Fault": {
+        "precision": 1.0,
+        "recall": 0.9944,
+        "f1": 0.9972,
+        "support": 178
+      },
+      "Ball Fault": {
+        "precision": 0.962,
+        "recall": 1.0,
+        "f1": 0.9806,
+        "support": 177
+      },
+      "Outer Race Fault": {
+        "precision": 1.0,
+        "recall": 0.9661,
+        "f1": 0.9828,
+        "support": 177
+      }
+    },
+    "macro_f1": 0.9901,
+    "confusion_matrix": [
+      [
+        59,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        177,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        177,
+        0
+      ],
+      [
+        0,
+        0,
+        6,
+        171
+      ]
+    ]
+  },
+  "c_fault_size_held_out": {
+    "0.007": {
+      "test_windows": 709,
+      "accuracy": 0.3992,
+      "per_class": {
+        "Normal": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "Inner Race Fault": {
+          "precision": 0.1661,
+          "recall": 0.1983,
+          "f1": 0.1808,
+          "support": 237
+        },
+        "Ball Fault": {
+          "precision": 0.554,
+          "recall": 1.0,
+          "f1": 0.713,
+          "support": 236
+        },
+        "Outer Race Fault": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 236
+        }
+      },
+      "macro_f1": 0.2234,
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          47,
+          190,
+          0
+        ],
+        [
+          0,
+          0,
+          236,
+          0
+        ],
+        [
+          0,
+          236,
+          0,
+          0
+        ]
+      ]
+    },
+    "0.014": {
+      "test_windows": 708,
+      "accuracy": 0.3206,
+      "per_class": {
+        "Normal": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "Inner Race Fault": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 236
+        },
+        "Ball Fault": {
+          "precision": 0.3252,
+          "recall": 0.9619,
+          "f1": 0.4861,
+          "support": 236
+        },
+        "Outer Race Fault": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 236
+        }
+      },
+      "macro_f1": 0.1215,
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          0,
+          236,
+          0
+        ],
+        [
+          9,
+          0,
+          227,
+          0
+        ],
+        [
+          1,
+          0,
+          235,
+          0
+        ]
+      ]
+    },
+    "0.021": {
+      "test_windows": 708,
+      "accuracy": 0.6314,
+      "per_class": {
+        "Normal": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0,
+          "support": 0
+        },
+        "Inner Race Fault": {
+          "precision": 0.8276,
+          "recall": 0.2034,
+          "f1": 0.3265,
+          "support": 236
+        },
+        "Ball Fault": {
+          "precision": 0.9822,
+          "recall": 0.7034,
+          "f1": 0.8198,
+          "support": 236
+        },
+        "Outer Race Fault": {
+          "precision": 0.4844,
+          "recall": 0.9873,
+          "f1": 0.6499,
+          "support": 236
+        }
+      },
+      "macro_f1": 0.4491,
+      "confusion_matrix": [
+        [
+          0,
+          0,
+          0,
+          0
+        ],
+        [
+          0,
+          48,
+          3,
+          185
+        ],
+        [
+          0,
+          7,
+          166,
+          63
+        ],
+        [
+          0,
+          3,
+          0,
+          233
+        ]
+      ]
+    }
+  },
+  "d_noise_test": {
+    "clean_trained": {
+      "clean": 0.9957,
+      "20 dB": 0.9936,
+      "10 dB": 0.8779,
+      "5 dB": 0.8158,
+      "0 dB": 0.651
+    },
+    "noise_trained": {
+      "clean": 0.9936,
+      "20 dB": 0.9936,
+      "10 dB": 0.9893,
+      "5 dB": 0.9786,
+      "0 dB": 0.9251
+    }
+  },
+  "e_other_sensor": {
+    "test_windows": 2331,
+    "accuracy": 0.1961,
+    "per_class": {
+      "Normal": {
+        "precision": 0.5299,
+        "recall": 0.9466,
+        "f1": 0.6794,
+        "support": 206
+      },
+      "Inner Race Fault": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 709
+      },
+      "Ball Fault": {
+        "precision": 0.0258,
+        "recall": 0.0367,
+        "f1": 0.0303,
+        "support": 708
+      },
+      "Outer Race Fault": {
+        "precision": 0.2471,
+        "recall": 0.3333,
+        "f1": 0.2838,
+        "support": 708
+      }
+    },
+    "macro_f1": 0.2484,
+    "confusion_matrix": [
+      [
+        195,
+        0,
+        11,
+        0
+      ],
+      [
+        0,
+        0,
+        499,
+        210
+      ],
+      [
+        173,
+        0,
+        26,
+        509
+      ],
+      [
+        0,
+        0,
+        472,
+        236
+      ]
+    ]
+  },
+  "f_severity_random_split": {
+    "test_windows": 425,
+    "accuracy": 0.9976,
+    "per_class": {
+      "0.007": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "support": 142
+      },
+      "0.014": {
+        "precision": 0.993,
+        "recall": 1.0,
+        "f1": 0.9965,
+        "support": 142
+      },
+      "0.021": {
+        "precision": 1.0,
+        "recall": 0.9929,
+        "f1": 0.9964,
+        "support": 141
+      }
+    },
+    "macro_f1": 0.9976,
+    "confusion_matrix": [
+      [
+        142,
+        0,
+        0
+      ],
+      [
+        0,
+        142,
+        0
+      ],
+      [
+        0,
+        1,
+        140
+      ]
+    ]
+  },
+  "g_severity_load_held_out": {
+    "test_windows": 532,
+    "accuracy": 0.9925,
+    "per_class": {
+      "0.007": {
+        "precision": 1.0,
+        "recall": 0.9888,
+        "f1": 0.9944,
+        "support": 178
+      },
+      "0.014": {
+        "precision": 0.9887,
+        "recall": 0.9887,
+        "f1": 0.9887,
+        "support": 177
+      },
+      "0.021": {
+        "precision": 0.9888,
+        "recall": 1.0,
+        "f1": 0.9944,
+        "support": 177
+      }
+    },
+    "macro_f1": 0.9925,
+    "confusion_matrix": [
+      [
+        176,
+        2,
+        0
+      ],
+      [
+        0,
+        175,
+        2
+      ],
+      [
+        0,
+        0,
+        177
+      ]
+    ]
+  },
+  "final_model_training_windows": 2325,
+  "final_model_training_rows_with_noisy_copies": 4650
+}
